@@ -1,6 +1,6 @@
 class ArtistsController < ApplicationController
   get '/artists' do
     @artist = Artist.last
-    puts '' #{@artist.name}'
+    puts 'All artists #{@artist.name}'
   end 
 end
