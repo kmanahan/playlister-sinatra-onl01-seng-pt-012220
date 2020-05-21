@@ -1,2 +1,3 @@
-class ArtistsController < ApplicationController
+class ArtistsController < ApplicationController 
+  get 
 end
