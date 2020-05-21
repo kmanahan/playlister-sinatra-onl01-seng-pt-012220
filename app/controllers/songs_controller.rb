@@ -1,3 +1,5 @@
 class ArtistsController < ApplicationController 
-  get 
+  get '/songs' do 
+    @songs = 
+  end 
 end
