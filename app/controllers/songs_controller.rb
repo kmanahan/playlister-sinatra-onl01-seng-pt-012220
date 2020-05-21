@@ -1,5 +1,5 @@
 class ArtistsController < ApplicationController 
   get '/songs' do 
-    @songs = 
+    @songs = Song.last
   end 
 end
